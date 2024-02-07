@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+
+
+    <div id="askInputDiv">
+
+        <br><br><br><br><br><br><br><br><br><br>
+
+        <button id="StartButton" onclick="
+        
+        
+        
+            let Num1 = prompt('Enter First Number:');
+
+            let op = prompt('Enter the OPERATION:')
+
+            let Num2 = prompt('Enter Second Number:');
+
+
+            let FaultyCalculator = Math.random();
+
+
+            if (FaultyCalculator < 0.1) { //show faultiness
+
+                if (op === '+') {
+
+                    console.log(Num1 - Num2);
+                }
+
+                else if (op === '-') {
+
+                    console.log(Num1 / Num2);
+                }
+
+                else if (op === '*') {
+
+                    console.log(Num1 + Num2);
+                }
+
+                else if (op === '/') {
+
+                    console.log(Num1 ** Num2);
+                }
+
+
+            }
+            
+
+            else { //CORRECT CALCULATIONS
+
+                if (op === '+') {
+
+                    console.log(Num1 + Num2);
+                }
+
+                else if (op === '-') {
+
+                    console.log(Num1 - Num2);
+                }
+
+                else if (op === '*') {
+
+                    console.log(Num1 * Num2);
+                }
+
+                else if (op === '/') {
+
+                    console.log(Num1 / Num2);
+                }
+
+
+            }
+
+   
+        
+        
+        ">Click to Start the FAULTY CALCULATOR</button><br><br>
+
+    
+
+    </div>
+
+
+
+
+
+</body>
+</html>
