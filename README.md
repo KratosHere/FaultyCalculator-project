@@ -5,7 +5,7 @@
 
 Below is the link , click and watch the resultant website: <br>
 
-<a href="https://shubh-faultycalc.netlify.app/">Click Here</a>
+<a href="https://faultycalculator.vercel.app/">Click Here</a>
 
 
 
